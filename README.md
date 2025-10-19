@@ -41,3 +41,24 @@ GraphQL	- Provides a flexible query language for clients to fetch data exactly a
 Docker	- Containerizes the application for consistent development and deployment across environments.
 
 GitHub Actions	- Automates testing, linting, and deployment workflows as part of CI/CD.
+
+-----------------------------------------------------------------------------------------
+Database Design 
+
+Key Entities and Fields
+User: id (Primary Key), username, email, password_hash, role (e.g., guest, host, admin)
+
+Property: id, title, description, location, price_per_night, host_id (FK to User)
+
+Booking: id, property_id (FK to Property), user_id (FK to User), start_date, end_date
+
+Review: id, property_id (FK to Property), user_id (FK to User), rating, comment
+
+Payment: id, booking_id (FK to Booking), amount, status (e.g., pending, completed, failed), transaction_date
+
+Relationships
+A User can host multiple Properties.
+A User can book multiple Properties.
+A Booking is linked to one Property and one User.
+A Property can have multiple Reviews.
+Each Booking has one Payment record.
