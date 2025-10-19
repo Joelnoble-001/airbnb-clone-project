@@ -62,3 +62,18 @@ A User can book multiple Properties.
 A Booking is linked to one Property and one User.
 A Property can have multiple Reviews.
 Each Booking has one Payment record.
+
+--------------------------------------------------------------------------------------------
+Feature Breakdown
+
+User Management	- Handles user registration, authentication (JWT), profile management, and role-based access.
+
+Property Management	- Enables hosts to create, update, and delete property listings with images and pricing.
+
+Booking System	- Allows users to view availability, make bookings, and manage their reservations.
+
+Reviews & Ratings	- Enables guests to leave reviews and ratings for properties, helping build trust.
+
+Payment Processing -	Handles secure transactions for bookings, including payment status updates and error handling.
+
+Search & Filter	- Supports searching for properties by location, price, and amenities.
