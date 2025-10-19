@@ -26,3 +26,18 @@ DevOps Engineer: Sets up CI/CD pipelines, manages deployments, monitors system p
 Project Manager: Oversees timelines, coordinates tasks, manages communication, and ensures deliverables meet deadlines.
 
 QA Engineer: Designs test cases, performs automated and manual testing, and ensures software quality before deployment.
+
+------------------------------------------------------------------------------------------
+Technology Stack
+
+Django - A Python web framework for building RESTful APIs and handling server-side logic efficiently.
+
+Django - REST Framework (DRF)	Extends Django to build flexible, browsable REST APIs.
+
+PostgreSQL - A powerful, open-source relational database to store structured data like users, bookings, and properties.
+
+GraphQL	- Provides a flexible query language for clients to fetch data exactly as needed.
+
+Docker	- Containerizes the application for consistent development and deployment across environments.
+
+GitHub Actions	- Automates testing, linting, and deployment workflows as part of CI/CD.
